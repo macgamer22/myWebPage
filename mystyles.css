@@ -1,0 +1,163 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: black;
+    background-image: url("images/header.png");
+    background-size: 100%;
+    border-radius: 10px;
+    height: 100;
+    padding: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .logo a {
+    background-image: url("images/julesgameon.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 80px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -30px;
+    width: 300px; 
+}
+
+.features {
+    background: black;
+    color: white;
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features figure {
+    margin: auto;
+    text-align: left;
+    width: 200px;
+}
+
+.features figure img {
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    box-shadow: white 0 0 10px;
+}
+
+.bio figure {
+    background: black;
+    margin-left:100p x;
+    margin-top: 50px;
+    text-align: left
+    
+}
+
+.bio figure img {
+    border-radius: 10px;
+    width: 215px;
+    margin-right: 80px;
+    box-shadow: white 0 0 10px;
+}
+
+.projectEye figure {
+    background: black;
+    margin-left:100px;
+    margin-top: 50px;
+    text-align: left
+    
+}
+
+.projectEye figure img {
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 80px;
+    box-shadow: white 0 0 10px;
+}
+
+.projectMap figure {
+    background: black;
+    margin-left:100px;
+    margin-top: 50px;
+    text-align: left
+    
+}
+
+.projectMap figure img {
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 80px;
+    box-shadow: white 0 0 10px;
+}
+
+.projectPacman figure {
+    background: black;
+    margin-left:100px;
+    margin-top: 50px;
+    text-align: left
+}
+
+.projectPacman figure img {
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 80px;
+    box-shadow: white 0 0 10px;
+}
+
+.biovideo figure {
+    background: black;
+    margin-right: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.biovideo figure iframe {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: right;
+    box-shadow: white 0 0 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:first-child {
+    padding-top: 30px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-family:'Courier New', Courier, monospace;
+    font-size: small;
+    text-shadow: none;
+    margin-top: 100px;
+    background-color: gray; 
+}
